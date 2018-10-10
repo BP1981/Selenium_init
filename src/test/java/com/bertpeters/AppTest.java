@@ -1,27 +1,19 @@
 package com.bertpeters;
-//import org.openqa.selenium.*;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.*;
-
-//import static org.junit.Assert.assertTrue;
-
-//import org.junit.Test;
-
-/**
- * Unit test for simple App.
- */
-public class AppTest 
+/*
+public class openBrowser
 {
-    @Test
-    public void shouldAnswerWithTrue()
-    {
 
-        Webdriver driver = new ChromeDriver();
+    public static void main(String[] args) {
+
+        WebDriver driver = new ChromeDriver();
         driver.get("http://www.bertpeters.be");
         Thread.sleep(5000);
         driver.close();
         driver.quit();
 
-
-        //assertTrue( true );
     }
-}
+    }
+
+*/
